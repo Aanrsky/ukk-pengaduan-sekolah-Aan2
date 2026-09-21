@@ -1,55 +1,62 @@
-# Pengaduan Sarana SMP Negeri 3 Bantul
+# Aplikasi Pengaduan Sarana SMP Negeri 3 Bantul
 
-Aplikasi Pengaduan Sarana SMP Negeri 3 Bantul adalah aplikasi berbasis Flutter yang digunakan untuk membantu siswa menyampaikan pengaduan mengenai sarana dan prasarana sekolah.
+Aplikasi Pengaduan Sarana SMP Negeri 3 Bantul merupakan aplikasi berbasis Flutter yang dibuat untuk membantu siswa melaporkan permasalahan sarana dan prasarana di lingkungan sekolah. Pengaduan yang dikirim siswa dapat dipantau dan ditindaklanjuti oleh admin.
 
 ## Identitas Project
 
+**Nama Pengembang:** Aan Risy Ramadhanni  
+**Kelas:** RPL 2  
 **Nama Project:** Pengaduan Sarana SMP Negeri 3 Bantul  
 **Jenis Project:** UKK RPL  
 **Platform:** Android  
 **Framework:** Flutter  
+**Bahasa Pemrograman:** Dart  
 **Backend:** Firebase  
 **Database:** Cloud Firestore  
-**Authentication:** Firebase Authentication  
-**Storage:** Firebase Storage  
+**Autentikasi:** Firebase Authentication  
+**Penyimpanan File:** Firebase Storage  
 
-## Studi Kasus
+## Deskripsi Project
 
-Aplikasi ini dibuat untuk mempermudah proses penyampaian dan pengelolaan pengaduan sarana sekolah.
+Aplikasi ini dikembangkan sebagai media pengaduan sarana sekolah. Siswa dapat mengirimkan laporan mengenai fasilitas sekolah yang rusak atau membutuhkan perbaikan.
 
-Siswa dapat membuat pengaduan mengenai sarana sekolah yang mengalami kerusakan atau membutuhkan penanganan. Admin dapat melihat pengaduan yang masuk, memperbarui status pengaduan, serta memberikan feedback kepada siswa.
+Admin bertugas menerima dan memeriksa pengaduan yang masuk, kemudian memperbarui status serta memberikan feedback. Siswa dapat melihat perkembangan pengaduan melalui halaman riwayat.
 
 ## Fitur Aplikasi
 
-### Siswa
+### Fitur Siswa
+
 - Registrasi akun
-- Login
-- Membuat pengaduan
-- Mengisi nama, judul, deskripsi, dan kategori pengaduan
-- Menambahkan foto pengaduan
-- Melihat riwayat pengaduan sendiri
+- Login pengguna
+- Membuat pengaduan baru
+- Memilih kategori pengaduan
+- Mengisi judul dan deskripsi pengaduan
+- Menambahkan foto sebagai bukti pengaduan
+- Melihat riwayat pengaduan milik sendiri
 - Melihat tanggal pengaduan
 - Melihat status terbaru pengaduan
 - Melihat feedback dari admin
 
-### Admin
+### Fitur Admin
+
 - Login admin
-- Melihat seluruh pengaduan siswa
+- Melihat daftar seluruh pengaduan
 - Melihat detail pengaduan
 - Melihat foto pengaduan
 - Memperbarui status pengaduan
-- Memberikan feedback kepada siswa
-- Melakukan filter pengaduan
+- Menambahkan feedback
+- Melakukan filter data pengaduan
 
-## Alur Aplikasi
+## Alur Sistem
 
-1. Siswa melakukan registrasi atau login.
-2. Siswa membuat pengaduan sarana sekolah.
-3. Pengaduan tersimpan ke Firebase.
-4. Admin menerima dan melihat pengaduan.
-5. Admin memperbarui status pengaduan.
-6. Admin memberikan feedback.
-7. Siswa dapat melihat status dan feedback melalui riwayat pengaduan.
+1. Siswa melakukan registrasi atau login ke aplikasi.
+2. Siswa mengisi formulir pengaduan.
+3. Siswa dapat melampirkan foto pengaduan.
+4. Data pengaduan disimpan ke Firebase.
+5. Admin melihat pengaduan yang masuk.
+6. Admin melakukan pemeriksaan terhadap pengaduan.
+7. Admin memperbarui status dan memberikan feedback.
+8. Siswa membuka riwayat untuk melihat status dan feedback terbaru.
 
 ## Teknologi yang Digunakan
 
