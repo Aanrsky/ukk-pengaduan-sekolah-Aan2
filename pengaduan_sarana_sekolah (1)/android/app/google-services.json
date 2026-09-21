@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "443292713411",
+    "project_id": "pengaduan-skolah",
+    "storage_bucket": "pengaduan-skolah.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443292713411:android:407e5f2eb87bb3ef17bd76",
+        "android_client_info": {
+          "package_name": "com.pengaduan.sekolah"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhJ-mz3MJ_8L_srFtrDCCIFa_vBhdq_V4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
